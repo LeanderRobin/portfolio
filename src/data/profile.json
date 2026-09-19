@@ -1,0 +1,135 @@
+{
+  "name": "Leander Robin",
+  "title": "Data Scientist",
+  "tagline": "Applied AI / ML Engineer with 5+ years of experience building end-to-end solutions across machine learning, computer vision, time series, and generative AI. Skilled in Python, AWS, and deploying scalable AI systems.",
+  "contact": {
+    "email": "leander.lrsam@gmail.com",
+    "phone": "+91 8951060615",
+    "location": "Karnataka, India",
+    "linkedin": "https://www.linkedin.com/in/leanderrobin",
+    "github": "https://github.com/LeanderRobin"
+  },
+  "education": [
+    {
+      "degree": "B.Tech in Computer Science and Engineering",
+      "school": "Srinivas University",
+      "period": "2016 - 2020"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Data Scientist",
+      "company": "CodeCraft Technologies - Mangalore",
+      "logo": "https://unavatar.io/codecrafttech.com",
+      "period": "Jul 2026 - Present",
+      "bullets": [
+        "Developing Agent creation tools using Azure Foundry."
+      ]
+    },
+    {
+      "role": "Senior Associate Consultant",
+      "company": "Infosys Ltd. - Bangalore",
+      "logo": "https://unavatar.io/infosys.com",
+      "period": "Feb 2026 - Jul 2026",
+      "bullets": [
+        "Developed AI agent tools (MCP) for network diagnostics and firmware automation.",
+        "Built automation workflows to detect false alarms and fetch firmware upgrade details.",
+        "Worked on cloud-based AI integrations and backend systems using Python and APIs.",
+        "Contributed to scalable enterprise solutions with a focus on automation and intelligent systems."
+      ]
+    },
+    {
+      "role": "Data Scientist",
+      "company": "CodeCraft Technologies - Mangalore",
+      "logo": "https://unavatar.io/codecrafttech.com",
+      "period": "Oct 2021 - Feb 2026",
+      "bullets": [
+        "Built and deployed ML models (Random Forest, XGBoost, SVM) for predictive analytics and recommendation systems.",
+        "Developed time series forecasting models (ARIMA, SARIMA, Prophet) for demand and traffic prediction.",
+        "Designed and implemented LLM-based chatbots using OpenAI, vector DBs, and RAG pipelines.",
+        "Worked on computer vision solutions (YOLO, OpenCV, TFLite) for object detection and video analysis.",
+        "Created end-to-end pipelines (ETL -> model -> API) using Flask, FastAPI, and cron jobs.",
+        "Deployed scalable solutions using AWS (S3, Lambda, ECR, SageMaker).",
+        "Led client interactions, demos, and project coordination for multiple AI solutions."
+      ]
+    }
+  ],
+  "skills": [
+    "Analytical Thinking",
+    "Problem Solving",
+    "AI System Design",
+    "Leadership",
+    "Communication",
+    "Collaboration",
+    "Adaptability"
+  ],
+  "tech_stack": {
+    "Programming": [
+      "Python",
+      "SQL"
+    ],
+    "Machine Learning": [
+      "Scikit-learn",
+      "XGBoost",
+      "ARIMA",
+      "SARIMA",
+      "Prophet"
+    ],
+    "Generative AI / LLMs": [
+      "OpenAI",
+      "RAG",
+      "Vector Databases",
+      "BioGPT"
+    ],
+    "Computer Vision": [
+      "OpenCV",
+      "YOLO",
+      "TFLite"
+    ],
+    "Frameworks & APIs": [
+      "Flask",
+      "FastAPI"
+    ],
+    "Cloud (AWS)": [
+      "S3",
+      "Lambda",
+      "ECR",
+      "SageMaker",
+      "Textract",
+      "Step Functions",
+      "CloudWatch"
+    ],
+    "Data Engineering": [
+      "ETL Pipelines",
+      "Data Processing",
+      "Spark",
+      "Databricks"
+    ],
+    "Tools & Platforms": [
+      "Git",
+      "Docker",
+      "Jira",
+      "Streamlit",
+      "Gradio"
+    ]
+  },
+  "languages": [
+    "English",
+    "Kannada",
+    "Hindi"
+  ],
+  "stats": [
+    {
+      "value": "5+",
+      "label": "Years experience"
+    },
+    {
+      "value": "3",
+      "label": "Companies"
+    },
+    {
+      "value": "5",
+      "label": "Core focus areas"
+    }
+  ]
+}
