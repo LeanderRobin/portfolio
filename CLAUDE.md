@@ -1,13 +1,14 @@
 # CLAUDE.md
 
-Personal portfolio site for **Leander Robin** (Data Scientist / Applied AI-ML Engineer). Static React SPA, no backend. Not a git repo yet. Folder structure is intentionally flat and minimal (modeled on github.com/MilynDsilva/Portfolio): only files the current code needs, no extra scaffolding.
+Personal portfolio site for **Leander Robin** (Data Scientist / Applied AI-ML Engineer). Static React SPA, no backend. Git repo, remote `origin` = https://github.com/LeanderRobin/portfolio (public), branch `main`. Folder structure is intentionally flat and minimal (modeled on github.com/MilynDsilva/Portfolio): only files the current code needs, no extra scaffolding.
 
 ## Layout
 
 ```
 portfolio/
 ├── index.html, package.json, vite.config.js, .oxlintrc.json, .gitignore
-├── public/                 # favicon.svg, Leander_Robin_CV.pdf (served at /Leander_Robin_CV.pdf)
+├── .github/workflows/deploy.yml   # builds + deploys to GitHub Pages on push to main
+├── public/                 # favicon.svg, CNAME (leander.in), Leander_Robin_CV.pdf (served at /Leander_Robin_CV.pdf)
 └── src/
     ├── main.jsx, App.jsx, index.css
     ├── data/profile.json   # SOURCE OF TRUTH for CV content (incl. stats)
@@ -54,6 +55,6 @@ Dev server on http://localhost:5173.
 
 ## Plans / caveats
 
-- Goal: private GitHub repo, hosted on GitHub Pages (or Cloudflare/Netlify if the repo stays private on the free plan), mapped to the domain `leander.in`. Not done yet.
+- Hosting: GitHub Pages via `.github/workflows/deploy.yml` (also copies index.html to 404.html as the SPA fallback for deep links). Domain `leander.in` bought on GoDaddy; `public/CNAME` holds it. Repo Settings > Pages > Source must be "GitHub Actions", and GoDaddy DNS needs 4 A records (185.199.108.153, .109.153, .110.153, .111.153) for `@` plus a CNAME `www` -> `leanderrobin.github.io`.
 - BrowserRouter is used, so a static host needs an SPA fallback (404.html copy on GitHub Pages) for deep links like `/about`.
 - Experience data includes a current role at CodeCraft ("Jul 2026 - Present"), preceded by Infosys (Feb-Jul 2026).
